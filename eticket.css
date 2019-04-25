@@ -1,0 +1,116 @@
+#col{
+	border-top-color: blue;
+	
+	margin-right: 200px;
+
+}
+#whole{
+	height: 500px;
+	width: 100%;
+	
+}
+#details{
+	height: 80px;
+	width: 85%;
+	border: 1px solid blue;
+
+}
+#kin{
+	padding: 10px;
+
+
+}
+.ver{
+	
+	border:2px solid blue;
+	height: 60px;
+	width: 250px;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	margin-top: -28px;
+
+}
+.dep{
+	height: 70px;
+	width:300px;
+	
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	margin-top: -71px;
+		margin-left: 280px;
+}
+.arr{
+	height: 70px;
+	width:200px;
+	
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	margin-top: -70px;
+		margin-left: 620px;
+
+}
+.v{
+	border:2px solid blue;
+	height: 60px;
+	width: 150px;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	margin-top: -70px;
+	margin-left: 700px;
+	
+}
+.last{
+	height: 70px;
+	width:200px;
+	
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	margin-top: -70px;
+		margin-left: 880px;
+
+
+}
+#pa_mid{
+	height: 60px;
+	width: 85%;
+	border: 1px solid blue;
+	top:500px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+#mid{
+	margin-top: 15px;
+	margin-right: 35px;
+	margin-left: 35px;
+	border-top-color: blue;
+}
+#sh{
+	margin-left: 95px;
+	margin-top: 50px;
+}
+#shi{
+	margin-left: 330px;
+}
+#shif{
+	margin-left: 380px;
+}
+#na{
+	margin-left: 95px;
+
+}
+#ad{
+	margin-left: 310px;
+}
+#di{
+	margin-left: 380px;
+}

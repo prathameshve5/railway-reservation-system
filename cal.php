@@ -1,0 +1,66 @@
+<?php
+session_start();
+include('connect.php');
+$id=$_GET['id'];
+setcookie('id',$id);
+$p1=$_POST['p1'];
+$gender1=$_POST['gender1'];
+$age1=$_POST['age1'];
+$p2=$_POST['p2'];
+$gender2=$_POST['gender2'];
+$age2=$_POST['age2'];
+$p3=$_POST['p3'];
+$gender3=$_POST['gender3'];
+$age3=$_POST['age3'];
+$p4=$_POST['p4'];
+$gender4=$_POST['gender4'];
+$age4=$_POST['age4'];
+$p5=$_POST['p5'];
+$gender5=$_POST['gender5'];
+$age5=$_POST['age5'];
+setcookie('p1',$p1);
+setcookie('gender1',$gender1);
+setcookie('age1',$age1);
+setcookie('p2',$p2);
+setcookie('gender2',$gender2);
+setcookie('age2',$age2);
+setcookie('p3',$p3);
+setcookie('gender3',$gender3);
+setcookie('age3',$age3);
+setcookie('p4',$p4);
+setcookie('gender4',$gender4);
+setcookie('age4',$age4);
+setcookie('p5',$p5);
+setcookie('gender5',$gender5);
+setcookie('age5',$age5);
+$q1=mysqli_query($connect,"SELECT * from flight_details WHERE id='$id'");
+$rows1=mysqli_fetch_array($q1);
+$rs=$rows1['fair_a'];
+$q2=mysqli_query($connect,"SELECT * from schedule WHERE id='$id'");
+$rows2=mysqli_fetch_array($q2);
+$f_no=$rows2['f_no'];
+setcookie('f_no',$f_no);
+if($p1!=''&&$gender1!=''&&$age1!='')
+{
+	
+}
+if($p2!=''&&$gender2!=''&&$age2!='')
+{
+	$rs=$rs+$rs;
+}
+if($p3!=''&&$gender3!=''&&$age3!='')
+{
+	$rs=$rs+$rs;
+}
+if($p4!=''&&$gender4!=''&&$age4!='')
+{
+	$rs=$rs+$rs;
+}
+if($p5!=''&&$gender5!=''&&$age5!='')
+{
+	$rs=$rs+$rs;
+}
+
+
+header("location:reserve1.php?id=$id&rs=$rs");
+?>

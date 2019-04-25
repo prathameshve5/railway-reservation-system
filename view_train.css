@@ -1,0 +1,28 @@
+#container
+{
+	width:550px;
+	height: 250px;
+	border-color: black;
+	border-style: solid;
+	padding: 20px;
+	font-family: sans-serif;
+	margin-left: 30%;
+	margin-top:10%;
+
+}
+textarea
+{
+	padding-bottom: 0px;
+	background: none;
+
+}
+td
+{
+	border-style: solid;
+	border-style: black;
+}
+
+button	
+{
+	margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+body
+{
+	background-color: cyan;
+}
+#se
+{
+	background-color: red;
+	width: 100%;
+	position:fixed;
+	left:0;
+}
+table
+{
+	width: 1300px;
+	margin-top:100px;
+}
+th
+{
+margin-bottom: 10px;
+	font-family: sans-serif;
+	background-color: blue;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	height: 30px;	
+}
+td
+{
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	background-color: gray;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	height: 30px;
+}
+td:hover, a:hover
+{
+	background-color: white;
+	font-family: sans-serif;
+color:blue;
+	
+}
+a
+{
+	text-decoration: none;
+	font-family: sans-serif;
+	color:black;
+}
+
